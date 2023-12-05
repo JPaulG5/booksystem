@@ -47,6 +47,8 @@ public class LoginView {
         label.setBounds(x,y, width,height);
         label.setFont(new Font("monospace", Font.PLAIN, sizeText));
 
+        // this parts is wrong!!
+
         if(alignment){
             label.setHorizontalAlignment(JLabel.CENTER);
             label.setVerticalAlignment(JLabel.CENTER);
