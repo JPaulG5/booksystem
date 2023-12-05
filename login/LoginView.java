@@ -39,6 +39,8 @@ public class LoginView {
         button.setFont(new Font("monospace",Font.PLAIN,sizeFont));
         button.setBorder(null);
         frame.add(button);
+
+        // test comment
     }
 
     public static void addLabel(JFrame frame, JLabel label, int x, int y, int width, int height, int sizeText, Boolean alignment){
